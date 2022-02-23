@@ -1,1 +1,1 @@
-web: gunicorn myfist.wsgi --log-file -
+web: gunicorn app:app
